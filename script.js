@@ -25,7 +25,7 @@ const pullBtn = document.getElementById("pullBtn");
 pullBtn.addEventListener("click", () => {
   // 翻到背面動畫
   cardImg.style.transform = "rotateY(180deg)";
-  cardImg.src = "images/back.png";
+  cardImg.src = "back.png";
   result.innerText = "";
 
   setTimeout(() => {
